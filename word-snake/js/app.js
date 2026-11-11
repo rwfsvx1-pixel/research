@@ -33,6 +33,7 @@ function home() {
       ${s.streak ? `<div class="chip">🔥 ${s.streak}일째 영어 모험 중</div>` : ''}</div>
     <button class="btn big go" data-go="${next < 0 ? 'map' : 'play:' + next}">▶ ${learned ? (next < 0 ? '다시 모험하기' : '모험 이어 하기') : '모험 시작!'}</button>
     <div class="grid">
+      <a class="tile town" href="village.html">🏘️<b>써니타운 · 나의 영어 마을 (새로 만드는 본편)</b></a>
       <a class="tile wide" href="island.html">🏝️<b>3D 블록 섬 탐험 (시험판)</b></a>
       <button class="tile" data-go="map">🗺️<b>장면 고르기</b></button>
       <button class="tile" data-go="book">📖<b>이야기책</b></button>
