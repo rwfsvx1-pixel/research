@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#3b6fd9">
+<title>코코의 블록 섬 · Word Snake 3D</title>
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app" class="island">
+  <canvas id="cv"></canvas>
+  <div class="top">
+    <div class="hud"><a class="back" href="index.html">←</a><div class="hearts"></div><div class="prog"></div></div>
+    <div class="prompt"></div>
+  </div>
+  <div id="stick" hidden><i></i></div>
+</div>
+<div id="toast"></div>
+<script src="vendor/three.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/store.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/island.js"></script>
+</body>
+</html>

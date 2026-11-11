@@ -139,3 +139,15 @@ header h2 { font-size: 20px; }
 
 #toast { position: fixed; left: 50%; bottom: 44px; transform: translate(-50%, 20px); background: #1f2d3d; color: #fff; padding: 10px 18px; border-radius: 99px; font-size: 15px; font-weight: 700; opacity: 0; pointer-events: none; transition: .25s; z-index: 9; max-width: 92vw; text-align: center; }
 #toast.on { opacity: .95; transform: translate(-50%, 0); }
+
+/* 3D 블록 섬 */
+.island canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; display: block; }
+.island .top { position: absolute; left: 0; right: 0; top: 0; background: rgba(247, 250, 253, .9); border-radius: 0 0 18px 18px; z-index: 2; }
+.island .prompt { min-height: 0; }
+.island .back { display: flex; align-items: center; justify-content: center; text-decoration: none; color: inherit; }
+a.btn { text-decoration: none; color: inherit; display: inline-block; }
+#stick { position: fixed; width: 84px; height: 84px; margin: -42px 0 0 -42px; border-radius: 50%; border: 3px solid rgba(255,255,255,.7); background: rgba(255,255,255,.18); z-index: 3; pointer-events: none; }
+#stick i { position: absolute; left: 50%; top: 50%; width: 36px; height: 36px; margin: -18px; border-radius: 50%; background: rgba(255,255,255,.85); }
+[hidden] { display: none !important; }
+.tile.wide { grid-column: 1 / -1; flex-direction: row; justify-content: center; gap: 8px; background: #e3f6e6; }
+a.tile { text-decoration: none; color: inherit; }
