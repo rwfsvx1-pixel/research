@@ -12,6 +12,15 @@ cd word-snake
 python3 -m http.server 8000   # http://localhost:8000
 ```
 
+### 휴대폰에서 하기 (GitHub Pages)
+
+1. GitHub 저장소 → **Settings → Pages**
+2. **Source**: Deploy from a branch → 이 게임이 있는 브랜치, 폴더 `/ (root)` → Save
+3. 1~2분 뒤 `https://<계정>.github.io/research/` 를 휴대폰 크롬/사파리로 연다.
+4. 브라우저 메뉴의 **홈 화면에 추가**를 누르면 앱처럼 쓸 수 있다.
+
+카카오톡 안에서 링크를 열면 마이크·공유가 막힐 수 있으니 "다른 브라우저로 열기"를 눌러 크롬/사파리에서 여세요.
+
 마이크(따라 말하기)는 `https://` 또는 `localhost`에서만 동작합니다. 휴대폰에서 쓰려면 GitHub Pages 같은 HTTPS 호스팅에 올리세요.
 
 ## 놀이 흐름
